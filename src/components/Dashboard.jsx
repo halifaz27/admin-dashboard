@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 import StatusGrid from './StatusGrid';
 import RevenueChart from './RevenueChart';
-import SalesChart from './SalesChart';
+import SalesChart from './SalesChartNew';
 import TableSection from './TableSection';
 import ActivityFeed from './ActivityFeed';
 
