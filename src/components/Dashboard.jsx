@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 import StatusGrid from './StatusGrid';
 import RevenueChart from './RevenueChart';
-import SalesChart from './SalesChartNew';
+import SalesChart from './SalesChart';
 import TableSection from './TableSection';
 import ActivityFeed from './ActivityFeed';
 
@@ -27,7 +27,7 @@ export default function Dashboard() {
             Here's what's happening with your business today.
           </p>
         </div>
-
+         
         <select
           value={period}
           onChange={(e) => setPeriod(e.target.value)}
